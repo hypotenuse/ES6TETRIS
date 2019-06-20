@@ -529,10 +529,10 @@ var CanvasScene = function () {
 		body.insertBefore(canvasNextTetramineElement, body.children[0]);
 		body.insertBefore(canvasScoreElement, body.children[0]);
 		var canvasSceneElementRect = canvasSceneElement.getBoundingClientRect();
-		canvasNextTetramineElement.style.top = canvasSceneElementRect.y + 'px';
-		canvasNextTetramineElement.style.left = canvasSceneElementRect.x + this.width + 'px';
-		canvasScoreElement.style.top = canvasSceneElementRect.y + 150 + 'px';
-		canvasScoreElement.style.left = canvasSceneElementRect.x + this.width + 'px';
+		canvasNextTetramineElement.style.top = canvasSceneElementRect.top + 'px';
+		canvasNextTetramineElement.style.left = canvasSceneElementRect.left + this.width + 'px';
+		canvasScoreElement.style.top = canvasSceneElementRect.top + 150 + 'px';
+		canvasScoreElement.style.left = canvasSceneElementRect.left + this.width + 'px';
 		this.boxes = [];
 		this.nextTetramine = { boxes: [] };
 		this.pointsValue = 0;
