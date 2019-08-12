@@ -5,4 +5,4 @@
 ### Play
 https://hypotenuse.github.io/ES6TETRIS/
 
-### © 2019 [Ivan Berger](https://vk.com/ivan_berger2). Released under the MIT License
+### © 2019 [Ivan N](https://vk.com/naumov_ivan2). Released under the MIT License
